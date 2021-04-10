@@ -339,4 +339,4 @@ client.connect((err) => {
   console.log("Connected");
 });
 
-app.listen(5000);
+app.listen(process.env.PORT || 5000);
